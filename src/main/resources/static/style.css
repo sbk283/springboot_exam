@@ -47,7 +47,7 @@ a:hover {
   --bs-btn-active-border-color: red;
 }
 
-h5, form, label {
+h5, form, label, .card-text {
   font-size: 2rem;
 }
 
@@ -55,6 +55,6 @@ h5, form, label {
   color: #fff;
 }
 
-.first_btn {
+.first-btn {
   margin-right: 10px;
 }
