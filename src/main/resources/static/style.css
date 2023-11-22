@@ -29,8 +29,11 @@ a, td {
 }
 
 a:hover {
-  text-decoration-line: none;
   color: violet;
+}
+
+a:active {
+  color: blue;
 }
 
 .table-dark {

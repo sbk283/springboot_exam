@@ -14,11 +14,11 @@
             <td>
                 <a th:href="@{|/question/detail/${question.id}|}" th:text="${question.subject}"></a>
             </td>
-            <td th:text="${#temporals.format(question.createDate, 'yyyy-MM-dd HH:mm')}"></td>
+            <td th:text="${#temporals.format(question.createDate, 'yyyy-MM-dd HH:mm:ss')}"></td>
         </tr>
         </tbody>
     </table>
     <a th:href="@{/question/create}" class="btn btn-primary first-btn">질문 등록하기</a>
-    <a th:href="@{/question/list}" class="btn btn-primary first-btn">목록 새로고침</a>
+    <a th:href="@{/question/list}" class="btn btn-primary">목록 새로고침</a>
 </div>
 </html>
